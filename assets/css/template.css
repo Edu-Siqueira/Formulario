@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Code Pro', monospace;
+}
+
+body{
+    background-color: #000;
+}
+
+header{
+    width: 100%;
+    padding: 20px;
+    background-color: rgb(39, 18, 39);
+    margin-bottom: 50px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #fff;
+    margin: 0 auto;
+}
+
+.register_info{
+    text-align: justify;
+    margin: 0 auto;
+    margin-top: 35px;
+    width: 50%;
+    height: 550px;
+    background-color: rgb(20, 20, 20);
+    border-radius: 8px;
+    opacity: 0.5;
+}
+
+form div{
+    text-align: center;
+    padding-top: 50px;
+}
+
+form input{
+    background-color: rgb(20, 20, 20);
+    outline: 0;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(70, 31, 70);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 25px;
+    color: #fff;
+    width: 75%;
+    transition: 0.5s all linear;
+}
+
+form input:hover{
+    border-bottom: 3px solid rgb(122, 46, 122);
+}
+
+form select{
+    background-color: rgb(20, 20, 20);
+    outline: 0;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(70, 31, 70);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    font-size: 25px;
+    color: #fff;
+    width: 75%;
+    transition: 0.5s all linear;
+}
+
+form button{
+    background-color: rgb(20, 20, 20);
+    outline: 0;
+    padding: 5px;
+    text-decoration: none;
+    border: 3px solid rgb(70, 31, 70);
+    border-radius: 8px;
+    font-size: 25px;
+    color: #fff;
+    width: 25%;
+    transition: 0.5s all linear;
+}
+
+form button:hover{
+    border: 3px solid rgb(24, 24, 24);
+    background-color: rgb(70, 31, 70);
+}
+
+::placeholder{
+    color: #fff;
+}
+
+footer{
+    margin: 20px;
+    padding: 10px;
+}
+
+.footer_bar{
+    margin: 0 auto;
+    margin-bottom: 20px;
+    width: 75%;
+    height: 2px;
+    background-color: rgb(20, 20, 20);
+}
+
+.footer_info p{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+}
+
+.footer_info a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.5s all linear;
+}
+
+.footer_info a:hover{
+    color: rgb(70, 31, 70);
+}
